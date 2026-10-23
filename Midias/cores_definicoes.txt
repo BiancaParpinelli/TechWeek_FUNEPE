@@ -1,8 +1,9 @@
-FUNDO ESCURO: #1b0107
-FUNDO CLARO: #2b050e
-BORDA: #473627
-COR CONTRASTE: #b39381
-ESCRITA SUBTOM BRANCO: #c5bab3
+  --cor-primaria: #ffffff;
+  --cor-secundaria: #f6f7f8;
+  --borda: #1e3966;
+  --contraste: #f17300;
+  --subtom: #1e3966;
+  --subtom2: #082049;
 
 -------------------------------------------------------------------------------------------------------------------------
 
