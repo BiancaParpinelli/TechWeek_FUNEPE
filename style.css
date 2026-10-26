@@ -479,3 +479,28 @@ form .botao {
   background-color: var(--subtom2);
   color: var(--cor-primaria);
 }
+/*PARCEIROS*/
+.parceiros {
+  background: var(--cor-secundaria);
+}
+.logos {
+  max-width: 1000px;
+  margin: 60px auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.logo-parceiro {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cor-primaria);
+  border: 1px solid var(--borda);
+  border-radius: 8px;
+}
+.logo-parceiro span {
+  color: var(--subtom);
+  font-size: 14px;
+  font-weight: bold;
+}
