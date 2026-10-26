@@ -586,3 +586,114 @@ form .botao {
   font-size: 11px;
   letter-spacing: 1px;
 }
+/*FOOTER*/
+footer {
+  padding: 50px 25px;
+  text-align: center;
+  background: var(--subtom2);
+  border-top: 1px solid var(--borda);
+}
+.footer-logo {
+  font-size: 28px;
+  font-weight: 900;
+}
+.footer-logo span {
+  color: var(--contraste);
+}
+.footer-logo small {
+  display: block;
+  color: var(--subtom);
+  font-size: 10px;
+  letter-spacing: 3px;
+}
+footer p {
+  color: var(--cor-primaria);
+  font-size: 13px;
+  margin-top: 15px;
+}
+/*RESPONSIVIDADE*/
+@media (max-width: 1100px) {
+  .cards-palestrantes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 900px) {
+  .menu {
+    gap: 12px;
+  }
+  .menu a {
+    font-size: 12px;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-imagem {
+    min-height: 300px;
+  }
+ .sobre {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .logos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .localizacao-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .galeria-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 650px) {
+  .navbar {
+    flex-direction: column;
+    padding: 18px 15px;
+    gap: 15px;
+  }
+  .menu {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .hero {
+    padding-top: 60px;
+  }
+  .hero h1 {
+    font-size: 55px;
+    letter-spacing: -2px;
+  }
+  .informacoes-evento {
+    flex-direction: column;
+  }
+  .informacoes-evento div {
+    width: 100%;
+  }
+  section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  /*1 card por linha no celular*/
+  .cards-palestrantes {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    max-width: 400px;
+    margin: auto;
+  }
+  form {
+    grid-template-columns: 1fr;
+  }
+  form .botao {
+    width: 100%;
+    text-align: center;
+  }
+  .logos {
+    grid-template-columns: 1fr 1fr;
+  }
+  .galeria-grid {
+    grid-template-columns: 1fr;
+  }
+  .foto-futura {
+    height: 180px;
+  }
+}
