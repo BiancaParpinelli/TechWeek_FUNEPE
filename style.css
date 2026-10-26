@@ -504,3 +504,55 @@ form .botao {
   font-size: 14px;
   font-weight: bold;
 }
+/*LOCALIZAÇÃO*/
+.localizacao-conteudo {
+  max-width: 1200px;
+  margin: 60px auto 0;
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 30px;
+}
+.endereco {
+  padding: 40px;
+  background: var(--subtom2);
+  color: var(--contraste);
+  border: 1px solid var(--borda);
+  border-radius: 8px;
+}
+.endereco h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.endereco p {
+  color: var(--cor-primaria);
+  margin-bottom: 15px;
+}
+.endereco h4 {
+  color: var(--contraste);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.mapa {
+  min-height: 350px;
+  background: linear-gradient(135deg, var(--subtom2), var(--subtom));
+  border: 1px solid var(--borda);
+  border-radius: 8px;
+}
+.mapa-placeholder {
+  height: 100%;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--cor-primaria);
+}
+.mapa-placeholder span {
+  font-size: 60px;
+}
+.mapa-placeholder p {
+  color: #ffffff;
+  margin-top: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
