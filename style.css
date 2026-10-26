@@ -376,16 +376,16 @@ tr:hover td {
   position: relative;
 }
 .card-lucas .img {
-  background-image: url("/Sprint1/Definições/Lucas\ Almeida.png");
+  background-image: url("/Midias/Palestrantes/Lucas_Almeida.png");
 }
 .card-mariana .img {
-  background-image: url("/Sprint1/Definições/Mariana\ Costa.png");
+  background-image: url("/Midias/Palestrantes/Mariana_Costa.png");
 }
 .card-rafael .img {
-  background-image: url("/Sprint1/Definições/Rafael\ Mendes.png");
+  background-image: url("/Midias/Palestrantes/Rafael_Mendes.png");
 }
 .card-ana .img {
-  background-image: url("/Sprint1/Definições/Ana\ Ferreira.png");
+  background-image: url("/Midias/Palestrantes/Ana_Ferreira.png");
 }
 /*NOME*/
 .card > span {
