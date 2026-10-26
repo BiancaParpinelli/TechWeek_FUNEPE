@@ -277,3 +277,58 @@ section {
 .sobre-conteudo p {
   margin-bottom: 20px;
 }
+/*PROGRAMAÇÃO*/
+.programacao {
+  max-width: 1250px;
+  margin: auto;
+}
+.dia {
+  margin-top: 70px;
+}
+.dia-titulo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.dia-titulo > span {
+  color: var(--contraste);
+  font-size: 50px;
+  font-weight: 900;
+}
+.dia-titulo h3 {
+  font-size: 20px;
+}
+.dia-titulo p {
+  color: var(--subtom);
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.tabela-container {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--borda);
+  border-radius: 8px;
+}
+table {
+  width: 100%;
+  min-width: 700px;
+  border-collapse: collapse;
+}
+th {
+  padding: 18px;
+  text-align: left;
+  background: var(--subtom);
+  color: var(--cor-primaria);
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+td {
+  padding: 18px;
+  border-top: 1px solid var(--borda);
+  color: var(--contraste);
+  font-size: 14px;
+}
+tr:hover td {
+  background: var(--subtom2);
+}
