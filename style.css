@@ -332,3 +332,150 @@ td {
 tr:hover td {
   background: var(--subtom2);
 }
+/*PALESTRANTES*/
+.palestrantes {
+  background: var(--cor-secundaria);
+}
+.cards-palestrantes {
+  max-width: 1250px;
+  margin: 60px auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.card {
+  position: relative;
+  width: 100%;
+  min-height: 490px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: var(--subtom);
+  border: 1px solid var(--borda);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.35s;
+}
+.card:hover {
+  transform: translateY(-10px);
+  border-color: var(--subtom2);
+  box-shadow: 0 15px 40px var(--subtom2);
+}
+.card .img {
+  width: 150px;
+  height: 150px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border: 3px solid var(--contraste);
+  background-color: var(--cor-secundaria);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.card-lucas .img {
+  background-image: url("/Sprint1/Definições/Lucas\ Almeida.png");
+}
+.card-mariana .img {
+  background-image: url("/Sprint1/Definições/Mariana\ Costa.png");
+}
+.card-rafael .img {
+  background-image: url("/Sprint1/Definições/Rafael\ Mendes.png");
+}
+.card-ana .img {
+  background-image: url("/Sprint1/Definições/Ana\ Ferreira.png");
+}
+/*NOME*/
+.card > span {
+  color: #fffefd;
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.card .cargo {
+  color: var(--contraste);
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+/*BIO*/
+.card .info {
+  color: var(--cor-primaria);
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+.card .palestra {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.card button {
+  margin-top: 20px;
+  padding: 10px 18px;
+  background: transparent;
+  color: var(--cor-primaria);
+  background-color: var(--contraste);
+  border: 1px solid var(--contraste);
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.card button:hover {
+  background: var(--subtom2);
+  color: var(--contraste);
+}
+.inscricao {
+  max-width: 900px;
+  margin: auto;
+}
+form {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+.campo label {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.campo input,
+.campo select {
+  width: 100%;
+  padding: 15px;
+  background: var(--cor-secundaria);
+  color: var(--subtom);
+  border: 1px solid var(--borda);
+  border-radius: 5px;
+  font-size: 14px;
+}
+.campo input::placeholder {
+  color: var(--subtom);
+}
+.campo select option {
+  background: var(--cor-secundaria);
+  color: var(--subtom);
+}
+form .botao {
+  grid-column: 1 / -1;
+  width: fit-content;
+  cursor: pointer;
+  background-color: var(--contraste);
+}
+.botao:hover {
+  background-color: var(--subtom2);
+  color: var(--cor-primaria);
+}
