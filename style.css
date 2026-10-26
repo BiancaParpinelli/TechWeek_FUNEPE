@@ -192,17 +192,7 @@ footer a:hover {
   background: transparent;
   color: var(--contraste);
 }
-/*HERO VISUAL*/
-/*.hero-imagem {
-  min-height: 480px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--cor-secundaria);
-  border: 1px solid var(--borda);
-  position: relative;
-  overflow: hidden;
-} */
+
 .hero-imagem {
   padding: 50px 20px;
   display: flex;
@@ -243,19 +233,7 @@ footer a:hover {
   opacity: 1 !important; /* Garante opacidade total na imagem */
   filter: contrast(180%) saturate(130%); /* Aumenta o contraste e as cores para sumir com o efeito desbotado */
 }
-/*.placeholder {
-  text-align: center;
-  position: relative;
-} 
-.placeholder span {
-  color: var(--contraste);
-  font-size: 100px;
-  font-weight: 900;
-}
-.placeholder p {
-  color: var(--subtom);
-  letter-spacing: 5px;
-} */
+
 /*SEÇÕES*/
 section {
   padding: 100px 25px;
@@ -281,4 +259,21 @@ section {
 }
 .centralizado {
   text-align: center;
+}
+/*SOBRE*/
+.sobre {
+  background: var(--cor-secundaria);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  padding-left: max(25px, calc((100% - 1150px) / 2));
+  padding-right: max(25px, calc((100% - 1150px) / 2));
+}
+.sobre-conteudo {
+  padding-top: 30px;
+  color: var(--subtom);
+  font-size: 17px;
+}
+.sobre-conteudo p {
+  margin-bottom: 20px;
 }
