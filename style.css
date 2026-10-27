@@ -569,22 +569,16 @@ form .botao {
 }
 .foto-futura {
   height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background: var(--cor-primaria);
-  border: 1px dashed var(--borda);
   border-radius: 8px;
-  color: var(--subtom);
+  overflow: hidden;
+  border: none;
+  background: none;
 }
-.foto-futura span {
-  color: var(--contraste);
-  font-size: 35px;
-}
-.foto-futura p {
-  font-size: 11px;
-  letter-spacing: 1px;
+.foto-futura img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 /*FOOTER*/
 footer {
