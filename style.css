@@ -52,11 +52,11 @@ select:focus {
   z-index: 9999;
 }
 .navbar-brand {
-  color: var(--cor-primaria);
+  color: var(--cor-primaria) !important;
   font-weight: bold;
 }
 .navbar-brand:hover {
-  color: var(--contraste);
+  color: var(--contraste) !important;
 }
 .nav-link {
   color: var(--cor-primaria) !important;
