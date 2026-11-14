@@ -24,6 +24,69 @@ body {
   line-height: 1.6;
 }
 
+ /* modo escuro */
+body.escuro {
+    background-color: #222;
+    color: white;
+    --subtom2: #082049;
+    --subtom: white;
+    --borda: white;
+    --cor-secundaria: #222;
+    --cor-primaria: #222;
+    
+}
+ /* modo escuro */
+.modoEscuro {
+    padding: 10px 18px;
+    background: transparent;
+    color: var(--cor-primaria);
+    background-color: var(--contraste);
+    border: 1px solid var(--contraste);
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+/* FOOTER - MODO CLARO */
+.rodape {
+    background-color: var(--subtom);
+    color: var(--subtom);
+    padding: 40px 0;
+    transition: 0.3s;
+}
+
+.rodape h3 {
+    color: var(--contraste);
+}
+
+.rodape p {
+    color: var(--cor-primaria);
+}
+
+.rodape a {
+    display: block;
+    color: var(--cor-primaria);
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+/* FOOTER - MODO ESCURO */
+body.escuro .rodape {
+    background-color: #1e3966;
+    color: white;
+}
+
+body.escuro .rodape h3{
+  color: var(--contraste);
+}
+
+body.escuro .rodape p,
+body.escuro .rodape b,
+body.escuro .rodape a {
+    color: white;
+}
+
 a {
   text-decoration: none;
   color: inherit;
