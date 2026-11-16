@@ -107,7 +107,7 @@ select:focus {
   outline: 3px solid var(--subtom2);
   outline-offset: 3px;
 }
-/* daltonismo */
+/* daltonismo
 .acessibilidade {
     position: relative;
     display: inline-block;
@@ -168,20 +168,20 @@ select:focus {
     outline: 3px solid #fff;
     outline-offset: 3px;
 }
-/* protanopia*/
+/* protanopia
 body.protanopia {
     --contraste: #8f8106;
     --cor-fundo: white;
     --cor-texto: #101c2c;
 }
-/* deuteranopia */
+/* deuteranopia
 body.deuteranopia {
     --cor-destaque: #0072b2;
-    --contraste: 
+    --contraste: #aa9895;
     --cor-fundo: white;
     --cor-texto: #151b2b;
 }
-/* tritanopia */
+/* tritanopia
 body.tritanopia {
     --cor-destaque: #e66100;
     --cor-secundaria: #cc79a7;
@@ -209,7 +209,7 @@ body.protanopia .destaque,
 body.deuteranopia .destaque,
 body.tritanopia .destaque {
     color: var(--cor-secundaria);
-}
+} */
 /*navbar*/
 .navbar {
   background-color: var(--subtom2);
