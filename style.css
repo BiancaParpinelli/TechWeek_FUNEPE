@@ -33,7 +33,6 @@ body.escuro {
     --borda: white;
     --cor-secundaria: #222;
     --cor-primaria: #222;
-    
 }
  /* modo escuro */
 .modoEscuro {
@@ -70,7 +69,6 @@ body.escuro {
     text-decoration: none;
     margin-bottom: 8px;
 }
-
 /* FOOTER - MODO ESCURO */
 body.escuro .rodape {
     background-color: #1e3966;
