@@ -7,7 +7,7 @@ botao.addEventListener("click", function() {
         botao.innerHTML = '<i class="bi bi-moon-fill"></i> Modo Escuro';
     }
 });
-/* daltonismo */
+/* daltonismo
 document.addEventListener("DOMContentLoaded", function () {
     const botao = document.getElementById("btnAcessibilidade");
     const menu = document.getElementById("menuDaltonismo");
@@ -34,4 +34,4 @@ function alterarModo(modo) {
     }
     localStorage.setItem("modoDaltonismo", modo);
     document.getElementById("menuDaltonismo").style.display = "none";
-}
+} */
