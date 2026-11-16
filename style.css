@@ -32,7 +32,6 @@ body.escuro {
     --subtom: white;
     --borda: white;
     --cor-secundaria: #222;
-    
 }
  /* modo escuro */
 .modoEscuro {
@@ -74,7 +73,6 @@ body.escuro {
     text-decoration: none;
     margin-bottom: 8px;
 }
-
 /* FOOTER - MODO ESCURO */
 body.escuro .rodape {
     background-color: #1e3966;
@@ -171,17 +169,16 @@ select:focus {
 }
 /* protanopia*/
 body.protanopia {
-    --cor-destaque: #56b4e9;
-    --cor-secundaria: #e69f00;
-    --cor-fundo: #101c2c;
-    --cor-texto: #ffffff;
+    --contraste: #8f8106;
+    --cor-fundo: white;
+    --cor-texto: #101c2c;
 }
 /* deuteranopia */
 body.deuteranopia {
     --cor-destaque: #0072b2;
-    --cor-secundaria: #e69f00;
-    --cor-fundo: #151b2b;
-    --cor-texto: #ffffff;
+    --contraste: 
+    --cor-fundo: white;
+    --cor-texto: #151b2b;
 }
 /* tritanopia */
 body.tritanopia {
