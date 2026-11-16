@@ -57,11 +57,32 @@
               <i class="bi bi-moon-fill"></i> Modo Escuro
               </button>
           </div>
+        <div class="acessibilidade">
+            <button type="button" id="btnAcessibilidade">
+            <i class="bi bi-eye-fill"></i>
+                Acessibilidade
+            </button>
+        <div id="menuDaltonismo" class="menu-daltonismo" style="display: none;">
+            <h3>Escolha o modo de cores</h3>
+            <button type="button" onclick="alterarModo('normal')">
+                Cores originais
+            </button>
+            <button type="button" onclick="alterarModo('protanopia')">
+                Protanopia
+            </button>
+            <button type="button" onclick="alterarModo('deuteranopia')">
+                Deuteranopia
+            </button>
+            <button type="button" onclick="alterarModo('tritanopia')">
+            Tritanopia
+            </button>
+                </div>
+            </div>
         </div>
       </nav>
     </header>
     <main>
-        <!--INÍCIO-->
+        <!--cabeçalho-->
         <section id="inicio" class="hero">
             <div>
                 <p class="tag">
@@ -119,7 +140,7 @@
                 </div>
             </div>
         </section>
-        <!--SOBRE-->
+        <!--sobre-->
            <section class="sobre">
 
             <div class="titulo-secao">
@@ -146,7 +167,7 @@
                 </p>
             </div>
         </section>
-        <!--PROGRAMAÇÃO-->
+        <!--programação-->
         <section id="programacao" class="programacao">
 
             <div class="titulo-secao centralizado">
@@ -158,8 +179,7 @@
                     <span>conhecimento.</span>
                 </h2>
             </div>
-
-            <!-- DIA 18 -->
+            <!-- dia 18 -->
             <div class="dia">
                 <div class="dia-titulo">
                     <span>
@@ -258,8 +278,7 @@
                     </table>
                 </div>
             </div>
-
-            <!-- DIA 19 -->
+            <!-- dia 19 -->
             <div class="dia">
                 <div class="dia-titulo">
                     <span>
@@ -357,8 +376,7 @@
                     </table>
                 </div>
             </div>
-
-            <!-- DIA 20 -->
+            <!-- dia 20 -->
             <div class="dia">
                 <div class="dia-titulo">
                     <span>
@@ -458,8 +476,8 @@
                 </div>
             </div>
         </section>
-    
-        <!--PALESTRANTES-->
+
+        <!--palestrantes-->
         <section id="palestrantes" class="palestrantes">
             <div class="titulo-secao centralizado">
                 <p>
@@ -473,7 +491,7 @@
 
             <div class="cards-palestrantes">
 
-                <!--LUCAS-->
+                <!--Lucas-->
                 <div class="card card-lucas">
                     <div class="img"
                          role="img"
@@ -503,7 +521,7 @@
                     </a>
                 </div>
 
-                <!--MARIANA-->
+                <!--Mariana-->
                 <div class="card card-mariana">
                     <div class="img"
                          role="img"
@@ -530,7 +548,7 @@
                     </a>
                 </div>
 
-                <!--RAFAEL-->
+                <!--Rafael-->
                 <div class="card card-rafael">
                     <div class="img"
                          role="img"
@@ -558,7 +576,7 @@
                     </a>
                 </div>
 
-                <!--ANA-->
+                <!--Ana-->
                 <div class="card card-ana">
                     <div class="img"
                          role="img"
@@ -587,7 +605,7 @@
             </div>
         </section>
 
-         <!--INSCRIÇÃO-->
+         <!--inscrição-->
         <section id="inscricao" class="inscricao">
             <div class="titulo-secao">
                 <p>
@@ -677,7 +695,7 @@
             </form>
         </section>
 
-        <!--PARCEIROS-->
+        <!--parceiros-->
         <section class="parceiros">
             <div class="titulo-secao centralizado">
                 <p>
@@ -705,7 +723,7 @@
             </div>
         </section>
 
-          <!--LOCALIZAÇÃO-->
+          <!--localização-->
         <section id="localizacao" class="localizacao">
             <div class="titulo-secao">
                 <p>
@@ -761,7 +779,7 @@
             </div>
         </section>
 
-       <!--GALERIA-->
+       <!--galeria-->
         <section class="galeria">
             <div class="titulo-secao centralizado">
                 <p>
@@ -793,12 +811,12 @@
         </section>
     </main>
 
-    <!--FOOTER-->
+    <!--footer-->
     <footer>
         <div class="container">
             <div class="row align-items-start">
 
-    <!-- ENDEREÇO -->
+    <!--endereço-->
                 <div class="col-md-6" id="endereco">
                     <h3>ENDEREÇO</h3>
                     <p>
@@ -817,7 +835,7 @@
                     </p>
                 </div>
 
-    <!-- REDES -->
+    <!--redes-->
                 <div class="col-md-3">
                     <h3>REDES SOCIAIS</h3>
                     <a href="https://www.instagram.com/funepesempre/?hl=pt">Instagram</a>
@@ -825,7 +843,7 @@
                     <a href="https://br.linkedin.com/company/funepe">LinkedIn</a>
                 </div>
 
-    <!-- SAC -->
+    <!--sac-->
                 <div class="col-md-3">
                     <h3>SAC</h3>
                     <a href="#">Fale Conosco</a>
@@ -835,9 +853,7 @@
         </div>
     </footer>
 
-    <!-- VLibras -->
 <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="javascript.js"></script>
 </body>
