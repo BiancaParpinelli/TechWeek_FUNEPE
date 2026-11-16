@@ -4,6 +4,7 @@
   --borda: #1e3966;
   --contraste: #f17300;
   --subtom: #1e3966;
+  /* --subtom: #0085f1; */
   --subtom2: #082049;
 }
 
@@ -29,11 +30,43 @@ body.escuro {
     background-color: #222;
     color: var(--contraste);
     --subtom2: #082049;
-    --subtom: white;
+    /* --subtom: white; */
     --borda: white;
     --cor-secundaria: #222;
 }
  /* modo escuro */
+body.escuro .sobre-conteudo p {
+    color: var(--cor-primaria);
+}
+
+/* formulário no modo escuro */
+body.escuro .campo label {
+    color: white;
+}
+
+body.escuro .campo input {
+    color: white;
+    background-color: #333;
+    border-color: white;
+}
+
+/* select no modo escuro */
+body.escuro .campo select {
+    color: white;
+    background-color: #333;
+    border-color: white;
+}
+
+/* opções do select */
+body.escuro .campo select option {
+    color: white;
+    background-color: #333;
+}
+
+/* cor do texto placeholder */
+body.escuro .campo input::placeholder {
+    color: #bbb;
+}
 .modoEscuro {
     padding: 10px 18px;
     background: transparent;
