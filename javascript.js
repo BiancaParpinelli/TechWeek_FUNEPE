@@ -7,31 +7,33 @@ botao.addEventListener("click", function() {
         botao.innerHTML = '<i class="bi bi-moon-fill"></i> Modo Escuro';
     }
 });
-/* daltonismo
-document.addEventListener("DOMContentLoaded", function () {
-    const botao = document.getElementById("btnAcessibilidade");
-    const menu = document.getElementById("menuDaltonismo");
-    botao.addEventListener("click", function () {
-        if (menu.style.display === "none") {
-            menu.style.display = "block";
-        } else {
-            menu.style.display = "none";
-        }
+
+const imagens = document.querySelectorAll('.logo-parceiro img, .foto-futura img');
+const modal = document.getElementById('modal-imagem');
+const imagemAmpliada = document.getElementById('imagem-ampliada');
+const fecharModal = document.querySelector('.fechar-modal');
+
+imagens.forEach(imagem => {
+    imagem.addEventListener('click', function() {
+        modal.style.display = 'flex';
+        imagemAmpliada.src = this.src;
+        imagemAmpliada.alt = this.alt;
+        document.body.style.overflow = 'hidden';
     });
-    const modoSalvo = localStorage.getItem("modoDaltonismo");
-    if (modoSalvo) {
-        alterarModo(modoSalvo);
+});
+fecharModal.addEventListener('click', fecharImagem);
+modal.addEventListener('click', function(event) {
+    if (event.target === modal) {
+        fecharImagem();
     }
 });
-function alterarModo(modo) {
-    document.body.classList.remove(
-        "protanopia",
-        "deuteranopia",
-        "tritanopia"
-    );
-    if (modo !== "normal") {
-        document.body.classList.add(modo);
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        fecharImagem();
     }
-    localStorage.setItem("modoDaltonismo", modo);
-    document.getElementById("menuDaltonismo").style.display = "none";
-} */
+});
+function fecharImagem() {
+    modal.style.display = 'none';
+    imagemAmpliada.src = '';
+    document.body.style.overflow = 'auto';
+}
