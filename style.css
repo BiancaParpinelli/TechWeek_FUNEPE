@@ -28,7 +28,7 @@ body {
  /* modo escuro */
 body.escuro {
     background-color: #222;
-    color: var(--contraste);
+    color: var(--cor-primaria);
     --subtom2: #082049;
     /* --subtom: white; */
     --borda: white;
