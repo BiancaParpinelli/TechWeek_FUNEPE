@@ -130,8 +130,7 @@ a {
 img {
   max-width: 100%;
 }
-
-/*ACESSIBILIDADE*/
+/*acessibilidade*/
 a:focus,
 button:focus,
 input:focus,
@@ -139,109 +138,6 @@ select:focus {
   outline: 3px solid var(--subtom2);
   outline-offset: 3px;
 }
-/* daltonismo
-.acessibilidade {
-    position: relative;
-    display: inline-block;
-}
-#btnAcessibilidade {
-    background: #f17300;
-    color: white;
-    border: 2px solid #082049;
-    padding: 12px 18px;
-    border-radius: 100px;
-    cursor: pointer;
-    font-size: 11px;
-    transition: 0.3s;
-}
-
-#btnAcessibilidade:hover {
-    background: #252545;
-    color: #fdfdfd;
-}
-.menu-daltonismo {
-    position: absolute;
-    top: 110%;
-    right: 0;
-    width: 220px;
-    padding: 15px;
-    background: #19192e;
-    border: 1px solid #082049;
-    border-radius: 10px;
-    z-index: 9999;
-    box-shadow: 0 5px 20px #0005;
-}
-.menu-daltonismo[hidden] {
-    display: none;
-}
-.menu-daltonismo h3 {
-    color: white;
-    font-size: 16px;
-    margin-bottom: 12px;
-}
-.menu-daltonismo button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 7px;
-    background: #292943;
-    color: white;
-    border: 1px solid #44445e;
-    border-radius: 6px;
-    cursor: pointer;
-    text-align: left;
-}
-.menu-daltonismo button:hover,
-.menu-daltonismo button:focus-visible {
-    background: #f17300;
-    color: #101020;
-}
-.acessibilidade button:focus-visible {
-    outline: 3px solid #fff;
-    outline-offset: 3px;
-}
-/* protanopia
-body.protanopia {
-    --contraste: #8f8106;
-    --cor-fundo: white;
-    --cor-texto: #101c2c;
-}
-/* deuteranopia
-body.deuteranopia {
-    --cor-destaque: #0072b2;
-    --contraste: #aa9895;
-    --cor-fundo: white;
-    --cor-texto: #151b2b;
-}
-/* tritanopia
-body.tritanopia {
-    --cor-destaque: #e66100;
-    --cor-secundaria: #cc79a7;
-    --cor-fundo: #20172b;
-    --cor-texto: #ffffff;
-}
-body.protanopia,
-body.deuteranopia,
-body.tritanopia {
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
-}
-body.protanopia .btn-primary,
-body.deuteranopia .btn-primary,
-body.tritanopia .btn-primary {
-    background-color: var(--cor-destaque);
-    color: #101020;
-}
-body.protanopia a,
-body.deuteranopia a,
-body.tritanopia a {
-    color: var(--cor-destaque);
-}
-body.protanopia .destaque,
-body.deuteranopia .destaque,
-body.tritanopia .destaque {
-    color: var(--cor-secundaria);
-} */
 /*navbar*/
 .navbar {
   background-color: var(--subtom2);
